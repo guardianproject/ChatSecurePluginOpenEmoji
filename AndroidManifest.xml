@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.guardianproject.chatsecure.emoji.core"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+         <activity android:name="info.guardianproject.chatsecure.emoji.core.StickersActivity"
+         	>
+             <intent-filter>
+ 			 <action android:name="info.guardianproject.emoji.STICKER_PACK" />
+		</intent-filter>
+			         
+             </activity>
+             
+       
+    </application>
+
+</manifest>
